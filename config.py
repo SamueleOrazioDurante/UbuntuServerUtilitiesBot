@@ -1,0 +1,4 @@
+BOT_TOKEN = ''
+CHAT_ID = ''
+WEBHOOK_WOL_URL = ''
+WEBHOOK_DATA_URL = ''

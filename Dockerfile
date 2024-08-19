@@ -1,10 +1,10 @@
 FROM python:3.10.12
+ENV TZ="Europe/Rome"
 
 WORKDIR /usr/src/app
 
 RUN apt update && apt install -y \
-        ffmpeg \
-        flac
+	iputils-ping
 
 COPY . .
 
